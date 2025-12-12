@@ -1,0 +1,86 @@
+/* Reset básico para limpiar márgenes por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #eef2f6;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    height: 100vh;           /* Altura total de la pantalla */
+}
+
+/* Diseño de la Tarjeta */
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08); /* Sombra suave */
+    text-align: center;
+    max-width: 380px;
+    width: 100%;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    background-color: #2d3436; /* Gris oscuro elegante */
+    border-radius: 50%;         /* Hace el círculo */
+    margin: 0 auto 25px auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #2d3436;
+    margin-bottom: 8px;
+}
+
+.role {
+    color: #636e72;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+}
+
+.bio {
+    color: #636e72;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Botones */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+}
+
+.btn:active {
+    transform: scale(0.98); /* Efecto de click */
+}
+
+.primary {
+    background-color: #0984e3;
+    color: white;
+}
+
+.secondary {
+    background-color: white;
+    color: #2d3436;
+    border: 2px solid #dfe6e9;
+}
