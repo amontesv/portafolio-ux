@@ -31,6 +31,8 @@ body {
     background-color: #2d3436; /* Gris oscuro elegante */
     border-radius: 50%;         /* Hace el círculo */
     margin: 0 auto 25px auto;
+    object-fit: cover; /* <--- ESTA ES LA NUEVA LÍNEA CLAVE */
+
 }
 
 h1 {
